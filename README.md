@@ -1,5 +1,5 @@
 # My Dev Environment Files 🚀
-My dev environment configuration files.
+My dev environment configuration setup and files.
 
 # Terminal Setup
 1. Install ***zsh*** - `brew install zsh` or `sudo apt install zsh`
