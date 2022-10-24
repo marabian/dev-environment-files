@@ -2,13 +2,28 @@
 My dev environment configuration setup and files.
 
 # Terminal Setup
-1. Install ***zsh*** - `brew install zsh` or `sudo apt install zsh`
+1. Install ***zsh*** 
+    ```
+    brew install zsh
+    ```
+    or
+    ```
+    sudo apt install zsh
+    ```
+2. Install ***ohmyzsh***
+    ```
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    ```
 
-2. Install ***ohmyzsh*** - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+3. Install ***powerlevel10k***
+    ```
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    ```
 
-3. Install ***powerlevel10k*** - `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
-
-4. Install ***zsh-syntax-highlighting-plugin*** - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+4. Install ***zsh-syntax-highlighting-plugin***
+    ```
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    ```
 
 5. Copy [.zshrc](.zshrc) to ***~/.zshrc***
 
@@ -22,7 +37,14 @@ My dev environment configuration setup and files.
 
 10. (**iTerm2** only) Some nice color schemes can be found [here](https://iterm2colorschemes.com/)
 
-11. Install ***tmux*** - `brew install tmux` or `sudo apt-get install tmux`
+11. Install ***tmux***
+    ```
+    brew install tmux
+    ```
+    or
+    ```
+    sudo apt-get install tmux
+    ```
 
 # VSCode Setup
 1. Install the following **extensions**:
