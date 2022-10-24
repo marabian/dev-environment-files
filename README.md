@@ -32,7 +32,8 @@ My dev environment configuration setup and files.
     * One Dark Pro (enable One Dark Pro Darker)
 
 2. Paste the following into **settings.json** file - Preferences: Open User Settings (JSON)
-    ```{
+    ```
+    {
     "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.iconTheme": "vscode-icons",
 
