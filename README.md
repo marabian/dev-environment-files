@@ -27,11 +27,11 @@ My dev environment configuration setup and files.
 
 5. Copy [.zshrc](.zshrc) to ***~/.zshrc***
 
-6. **(iTerm2 only)** Change **font size** to 16 (Preferences -> Profiles -> Text -> Font)
+6. *(iTerm2 only)* Change **font size** to 16 (Preferences -> Profiles -> Text -> Font)
 
-7. **(iTerm2 only)** Set **background color** to 10% gray (Preferences -> Profiles -> Color -> Background)
+7. *(iTerm2 only)* Set **background color** to 10% gray (Preferences -> Profiles -> Color -> Background)
 
-8. **(iTerm2 only)** Set **terminal transparency** to 23 (Preferences -> Profiles -> Window -> Transparency)
+8. *(iTerm2 only)* Set **terminal transparency** to 23 (Preferences -> Profiles -> Window -> Transparency)
 
 9. Font - ***MesloLGS NF*** (powerlevel10k should download this automatically, check in iTerm2 Preferences -> Profiles -> Text -> Font)
 
