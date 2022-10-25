@@ -25,7 +25,7 @@ My dev environment configuration setup and files.
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
     ```
 
-5. Copy [.zshrc](.zshrc) to ***~/.zshrc***
+5. Copy [.zshrc](zsh/.zshrc) to ***~/.zshrc***
 
 6. *(iTerm2 only)* Change **font size** to 16 (Preferences -> Profiles -> Text -> Font)
 
@@ -53,33 +53,9 @@ My dev environment configuration setup and files.
     * vscode-icons 
     * One Dark Pro (enable One Dark Pro Darker)
 
-2. Paste the following into **settings.json** file - Preferences: Open User Settings (JSON)
-    ```
-    {
-    "workbench.colorTheme": "One Dark Pro Darker",
-    "workbench.iconTheme": "vscode-icons",
+2. Copy [settings.json](vscode/settings.json) into **VSCode** Preferences: Open User Settings (JSON)
 
-    // The number of spaces a tab is equal to. This setting is overridden
-    // based on the file contents when `editor.detectIndentation` is true.
-    "editor.tabSize": 4,
 
-    // Insert spaces when pressing Tab. This setting is overriden
-    // based on the file contents when `editor.detectIndentation` is true.
-    "editor.insertSpaces": true,
-
-    // When opening a file, `editor.tabSize` and `editor.insertSpaces`
-    // will be detected based on the file contents. Set to false to keep
-    // the values you've explicitly set, above.
-    "editor.detectIndentation": false,
-
-    // Controls the font family.
-    "editor.fontFamily": "Consolas",
-
-    // Controls the font size.
-    "editor.fontSize": 13,
-    "security.workspace.trust.untrustedFiles": "open"
-    }
-    ```
 
 3. Launching **VSCode** from the command line
 
